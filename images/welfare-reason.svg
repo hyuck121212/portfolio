@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img"
+     aria-label="공공복지서비스를 쓰지 않은 이유 막대그래프. 몰라서 43.5퍼센트, 지원 대상이 아니어서 23.9퍼센트, 기타 11.9퍼센트, 정보 접근이 어려워서 10.5퍼센트. 출처 경기복지재단·한국갤럽 조사.">
+  <style>
+    .t  { font-family: "Noto Sans KR","Malgun Gothic","Apple SD Gothic Neo",system-ui,sans-serif; }
+    .hd { font-size: 25px; font-weight: 700; fill: #16181d; }
+    .sub{ font-size: 17px; fill: #565c66; }
+    .vl { font-size: 21px; font-weight: 700; fill: #16181d; }
+    .vd { font-size: 21px; font-weight: 700; fill: #565c66; }
+    .cat{ font-size: 17px; fill: #3b414b; }
+    .ax { font-size: 15px; fill: #8d95a3; }
+    .src{ font-size: 14px; fill: #78808d; }
+  </style>
+  <rect width="800" height="500" fill="#f4f6fa"/>
+
+  <text class="t hd" x="48" y="56">지원을 못 받은 가장 큰 이유는 제도를 몰라서였다</text>
+  <text class="t sub" x="48" y="84">공공복지서비스 미사용 이유 (단위: %)</text>
+
+  <!-- gridlines -->
+  <g stroke="#dfe4ec" stroke-width="1">
+    <line x1="96" y1="380" x2="752" y2="380"/>
+    <line x1="96" y1="320" x2="752" y2="320"/>
+    <line x1="96" y1="260" x2="752" y2="260"/>
+    <line x1="96" y1="200" x2="752" y2="200"/>
+    <line x1="96" y1="140" x2="752" y2="140"/>
+  </g>
+  <g class="t ax" text-anchor="end">
+    <text x="84" y="386">0</text>
+    <text x="84" y="326">10</text>
+    <text x="84" y="266">20</text>
+    <text x="84" y="206">30</text>
+    <text x="84" y="146">40</text>
+  </g>
+  <line x1="96" y1="380" x2="752" y2="380" stroke="#b7bfcc" stroke-width="2"/>
+
+  <!-- 43.5 -> 261px ; 1% = 6px -->
+  <rect x="136" y="119" width="104" height="261" rx="4" fill="#0e6da8"/>
+  <text class="t vl" x="188" y="107" text-anchor="middle">43.5</text>
+  <text class="t cat" x="188" y="408" text-anchor="middle">몰라서</text>
+
+  <rect x="296" y="237" width="104" height="143" rx="4" fill="#9fb9cc"/>
+  <text class="t vd" x="348" y="225" text-anchor="middle">23.9</text>
+  <text class="t cat" x="348" y="408" text-anchor="middle">지원 대상이 아님</text>
+
+  <rect x="456" y="309" width="104" height="71" rx="4" fill="#9fb9cc"/>
+  <text class="t vd" x="508" y="297" text-anchor="middle">11.9</text>
+  <text class="t cat" x="508" y="408" text-anchor="middle">기타</text>
+
+  <rect x="616" y="317" width="104" height="63" rx="4" fill="#9fb9cc"/>
+  <text class="t vd" x="668" y="305" text-anchor="middle">10.5</text>
+  <text class="t cat" x="668" y="408" text-anchor="middle">정보 접근이 어려움</text>
+
+  <text class="t sub" x="48" y="452">제도를 찾아내는 일 자체가 걸림돌이었다.</text>
+  <text class="t src" x="48" y="478">출처: 경기복지재단 · 한국갤럽 조사 (2025)</text>
+</svg>
